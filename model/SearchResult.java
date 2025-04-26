@@ -3,6 +3,7 @@ package com.skyscanner.hoenscanner.model;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class SearchResult {
+    
 
     @JsonProperty
     private String city;
@@ -14,14 +15,18 @@ public class SearchResult {
     private String title;
 
     public String getCity() {
+        
         return city;
     }
 
     public String getKind() {
+        
         return kind;
+        
     }
 
     public String getTitle() {
         return title;
+        
     }
 }
