@@ -8,6 +8,7 @@ public class Search {
     private String city;
 
     public String getCity() {
+        
         return city;
     }
 
